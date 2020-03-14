@@ -1,10 +1,12 @@
 
 import About from './pages/about.html.mdx'
+import Layout from "./layout.html.jsx"
 
 export default () => {
-    return 
-    <>
-        <h1>Welcome to my new Charge site!</h1>
-        <About />
-    </>
+    return (
+        <Layout title="Title">
+          <p>New Charge Site</p>
+          <About />
+        </Layout>
+      )
   }
