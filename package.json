@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "charge serve src",
     "dev": "charge serve src",
     "build": "charge build src public"
   },
@@ -16,5 +17,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mconnor/charge-app"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "emotion": "^10.0.27",
+    "react-router-dom": "^5.1.2"
   }
 }
